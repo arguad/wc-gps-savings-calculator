@@ -1,0 +1,98 @@
+.calculator_container{
+  width: 100%;
+  background: #fff;
+  
+  border-radius: 5px;
+  padding: 50px 35px 10px 35px;
+}
+.calculator_container header{
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+.calculator_container .form-outer{
+  width: 100%;
+  overflow: hidden;
+}
+.calculator_container .form-outer form{
+  
+  width: 400%;
+}
+.calculator_container .form-outer form .page{
+  width: 25%;
+  float: left;
+  transition: margin-left 0.3s ease-in-out;
+}
+.calculator_container .form-outer form .page .title{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+.calculator_container .form-outer form .page .field{
+  width: 330px;
+  font-size:14px;
+  margin: 15px 0;
+  outline:none;
+  position: relative;
+}
+.calculator_container form .page .field .label{
+  
+  font-weight: 500;
+}
+.calculator_container form .page .field input{
+  height: 100%;
+  width: 100%;
+  min-width: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline:none;
+  font-size: 18px;
+}
+.calculator_container form .page .field select{
+  width: 100%;
+  min-width: 200px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.calculator_container form .page .field button{
+  width: 100%;
+  height: calc(100% + 5px);
+  border: none;
+  background: #00a3d9;
+  margin-top: -20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+  outline:none;
+      padding: 10px 0;
+}
+.calculator_container form .page .field button:hover{
+  background: #00bfff;
+}
+.calculator_container form .page .btns button{
+  margin-top: 20px!important;
+}
+.calculator_container form .page .btns button.prev, .calculator_container form .page .btns button.submit{
+  margin-right: 3px;
+  font-size: 17px;
+  width: 40%;
+}
+.calculator_container form .page .btns button.next{
+  margin-left: 3px;
+  width: 40%;
+}
+
+
+.err{
+	color:#ff0000 !important;
+}
+#totalsavings {
+	border: #ff0000 solid;
+}
